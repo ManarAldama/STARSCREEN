@@ -1,0 +1,63 @@
+/* Container for the movie listing */
+.movie-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Movie card wrapper */
+.movie-card-wrapper {
+  background: #fff;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Movie image */
+.movie-card__image img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 2px solid red;
+}
+
+/* Movie title */
+.movie-card__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Movie description */
+.movie-card__description {
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+  height: 60px; /* Set height for consistent layout */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .movie-card-wrapper {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .movie-card-wrapper {
+    width: 100%;
+  }
+}
+
+/* Ensure no empty cards are displayed */
+.movie-card-wrapper:empty {
+  display: none;
+}

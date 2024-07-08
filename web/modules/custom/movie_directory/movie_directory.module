@@ -1,0 +1,17 @@
+<?php
+
+/**
+*Implements hook_theme().
+*/
+function movie_directory_theme($existing, $type, $theme, $path) {
+  #movie-listing' IS the template name
+  return [
+    'movie-listing' => [
+      'variables' => ['content' => NULL]
+    ],
+    'movie-card' => [
+      'variables' => ['content' => NULL]
+    ]
+    
+  ];
+}

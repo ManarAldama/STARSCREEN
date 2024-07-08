@@ -1,0 +1,12 @@
+<div class="movie-search-bar">
+    {{ content.search }}
+</div>
+
+
+<div class="movie-listing">
+   {% if content.movies is not empty %}
+      {% for movie in content.movies %}
+          {{ movie }}
+      {% endfor %}
+   {% endif %}
+</div>

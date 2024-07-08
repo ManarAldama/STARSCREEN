@@ -1,0 +1,4 @@
+movie_directory_styling:
+  css:
+    theme:
+      assets/css/movie-styles.css: {}  

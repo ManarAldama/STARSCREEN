@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\web",
+    "\\web\\modules",
+    "\\web\\modules\\custom",
+    "\\web\\modules\\custom\\movie_directory",
+    "\\web\\modules\\custom\\movie_directory\\assets",
+    "\\web\\modules\\custom\\movie_directory\\assets\\css",
+    "\\web\\modules\\custom\\movie_directory\\src",
+    "\\web\\modules\\custom\\movie_directory\\src\\Controller",
+    "\\web\\modules\\custom\\movie_directory\\templates"
+  ],
+  "SelectedNode": "\\web\\modules\\custom\\movie_directory\\templates\\movie-listing.html.twig",
+  "PreviewInSolutionExplorer": false
+}
